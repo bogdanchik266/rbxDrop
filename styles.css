@@ -1,4 +1,20 @@
+*, 
+*:before, 
+*:after{
+    box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Russo One", sans-serif;
+  color: white;
+  font-size: 40px;
   background-color: #050021;
 }
 
@@ -49,12 +65,7 @@ menu li {
 }
 
 .link {
-  font-size: 40px;
   text-decoration: none;
-  color: white;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Lato", sans-serif;
-  font-family: "Russo One", sans-serif;
 }
 
 .t {
