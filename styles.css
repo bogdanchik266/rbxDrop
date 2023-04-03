@@ -2,166 +2,173 @@ body {
   background-color: #050021;
 }
 
-.logo{
+.logo {
+  margin-top: 10px;
+}
 
-    margin-top: 10px;
-  }
-  .DROP{
-    font-size: 60px;
-    text-align: center;
-  }
-  .piska1{
-    margin-left: 40px;
-  }
-  .piska2{
-  
-  }
-  .header{
-    height:150px;
-    width:1600px;
-    background-color: #050021;
-    margin-top: 5px;
-    margin-left: auto;
-      margin-right: auto;
-     border-radius: 15px;
-  
-  }
-  nav{
-  background-color:  #FFB800;
+.DROP {
+  font-size: 60px;
+  text-align: center;
+}
+
+.piska1 {
+  margin-left: 40px;
+}
+
+.header {
+  height: 150px;
+  width: 1600px;
+  background-color: #050021;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+nav {
+  background-color: #ffb800;
   border-radius: 15px;
   height: 60px;
   line-height: 50px;
   width: 1600px;
   margin-left: auto;
-      margin-right: auto;
-  }
-  menu li{
+  margin-right: auto;
+}
+
+menu li {
   display: inline-block;
   list-style: none;
   padding: 0 25px;
   height: 50px;
-  margin:0 -2px;
-  }
-  .menu2{
-    
-    display: block;
-    margin: 0 auto;
-    
-  }
-  .link{
-    font-size: 40px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Russo One', sans-serif;
-  
-  
-  }
-  .t{
-    word-spacing: 35px;
-  }
-  .n{
-    height:80px;
-    width:1300px;
-    
-    margin-top: 50px;
-     margin-left: auto;
-      margin-right: auto;
-       border-radius: 15px;
-  }
-  .text{
-    text-align: center;
-    font-size: 60px;
-    color: white;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .headerline{
-     display: flex;
-    justify-content: space-between;
-  
-  
-    box-sizing: border-box;
-  }
-  .sign-up{
+  margin: 0 -2px;
+}
+
+.menu2 {
+  display: block;
+  margin: 0 auto;
+}
+
+.link {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Russo One", sans-serif;
+}
+
+.t {
+  word-spacing: 35px;
+}
+
+.n {
+  height: 80px;
+  width: 1300px;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.text {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.headerline {
+  display: flex;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+}
+
+.sign-up {
   font-size: 35px;
   color: white;
-  display: block;  
-  text-align:center;
-  font-family: 'Lato', sans-serif;
-  
+  display: block;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+
   text-decoration: none;
   margin-top: 4px;
-  }
-  .knopka{
-    background-color:  #FFB800;
+}
+
+.knopka {
+  background-color: #ffb800;
   border-radius: 15px;
   list-style: none;
   margin-top: 50px;
   line-height: 55px;
-  }
-  .caise{
-    background-color: #D9D9D9;
-    border-radius: 15px;
-    height: 210px;
-    line-height: 250px;
-    width: 1600px;
-    margin-left: auto;
-      margin-right: auto;
-      margin-top: 30px;
-  }
-  .caise2{
-    background-color: #98DAFF;
-    border-radius: 15px;
-    height: 210px;
-    line-height: 250px;
-    width: 1600px;
-    margin-left: auto;
-      margin-right: auto;
-      margin-top: 30px;
-  }
-  .caise3{
-    background-color: #6ACB6A;
-    border-radius: 15px;
-    height: 210px;
-    line-height: 250px;
-    width: 1600px;
-    margin-left: auto;
-      margin-right: auto;
-      margin-top: 30px;
-  }
-  .caisebutt{
-    display: inline-block;
-  
-  }
-  .zagolovok{
-    color: white;
-    font-size: 40px;
-    font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Russo One', sans-serif;
-  }
-  footer{
-    background-color:  #FFB800;
+}
+
+.caise {
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  height: 210px;
+  line-height: 250px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.caise2 {
+  background-color: #98daff;
+  border-radius: 15px;
+  height: 210px;
+  line-height: 250px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.caise3 {
+  background-color: #6acb6a;
+  border-radius: 15px;
+  height: 210px;
+  line-height: 250px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.caisebutt {
+  display: inline-block;
+}
+
+.zagolovok {
+  color: white;
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Russo One", sans-serif;
+}
+
+footer {
+  background-color: #ffb800;
   border-radius: 15px;
   height: 250px;
   margin-top: 40px;
   width: 1600px;
-  }
-  .e{
-    transition: 1s;
-  }
-  .e:hover{
-     transform: scale(1.2);
-  }
-  .link2{
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Russo One', sans-serif;
-  
-  
-  }
+}
+
+.e {
+  transition: 1s;
+}
+
+.e:hover {
+  transform: scale(1.2);
+}
+
+.link2 {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Russo One", sans-serif;
+}
