@@ -1,6 +1,9 @@
-#body{
+body {
   min-width: 1170px;
-  background-image: rgba(0,0,255,.5),url(image/background.png);
+  background-image: url("./images/YMMNJJW_rTqlpLntNNl_bMqypOYfxKZd2CXi6B4-ZcM\ 2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .logo{
 width: 25%;
