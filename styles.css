@@ -1,0 +1,29 @@
+*, 
+*:before, 
+*:after{
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 148.02%;
+    color: white;
+    overflow-x: hidden;
+    background-image: url("./images/backgroundImg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
