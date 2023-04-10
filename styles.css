@@ -27,3 +27,87 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+.center-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header 1 */
+
+.header {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Logo properties */
+
+.logo {
+    height: 55px;
+    width: 220px;
+}
+
+/* Registration/Login properties */
+
+.registration-login-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+}
+
+.header-registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.registration-button {
+    background-color: #FFA800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    height: 40px;
+    width: 110px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.registration-button:hover {
+    background-color: #dd9300;
+}
+
+.header-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button {
+    background-color: #FFA800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    height: 40px;
+    width: 110px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.login-button:hover {
+    background-color: #dd9300;
+}
