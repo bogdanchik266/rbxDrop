@@ -16,10 +16,11 @@ body {
     line-height: 148.02%;
     color: white;
     overflow-x: hidden;
-    background-image: url("./images/backgroundImg.png");
+    /* background-image: url("./images/backgroundImg.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: #050021;
 }
 
 .wrapper {
@@ -65,7 +66,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .registration-button {
@@ -81,10 +82,16 @@ body {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     transition: all 0.2s ease-in 0s;
+    transition-duration: 0.1s;
 }
 
 .registration-button:hover {
     background-color: #dd9300;
+}
+
+.registration-button:active {
+    background-color: #dd9300;
+    transform: translateY(4px);
 }
 
 .header-login {
@@ -106,8 +113,14 @@ body {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     transition: all 0.2s ease-in 0s;
+    transition-duration: 0.1s;
 }
 
 .login-button:hover {
     background-color: #dd9300;
+}
+
+.login-button:active {
+    background-color: #dd9300;
+    transform: translateY(4px);
 }
