@@ -81,8 +81,7 @@ body {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    transition: all 0.2s ease-in 0s;
-    transition-duration: 0.1s;
+    transition: all 0.1s ease-in 0s;
 }
 
 .registration-button:hover {
@@ -112,8 +111,7 @@ body {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    transition: all 0.2s ease-in 0s;
-    transition-duration: 0.1s;
+    transition: all 0.1s ease-in 0s;
 }
 
 .login-button:hover {
