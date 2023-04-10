@@ -69,6 +69,8 @@ body {
     margin: 20px;
 }
 
+/* ------------------- */
+
 .registration-button {
     background-color: #FFA800;
     color: white;
@@ -93,11 +95,15 @@ body {
     transform: translateY(4px);
 }
 
+/* -------------------- */
+
 .header-login {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* -------------------------- */
 
 .login-button {
     background-color: #FFA800;
@@ -122,3 +128,5 @@ body {
     background-color: #dd9300;
     transform: translateY(4px);
 }
+
+/* ----------------------- */
