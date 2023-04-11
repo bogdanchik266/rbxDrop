@@ -71,8 +71,9 @@ body {
     border: none;
     cursor: pointer;
     font-weight: 700;
-    height: 40px;
-    width: 110px;
+    font-size: 17px;
+    height: 55px;
+    width: 120px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -105,8 +106,9 @@ body {
     border: none;
     cursor: pointer;
     font-weight: 700;
-    height: 40px;
-    width: 110px;
+    font-size: 17px;
+    height: 55px;
+    width: 120px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -149,8 +151,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    padding-right: 55px;
 }
 
 .img-in-nav {
