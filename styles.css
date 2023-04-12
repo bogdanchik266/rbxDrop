@@ -138,9 +138,8 @@ body {
 
 .header2 {
     width: 100%;
-    /* padding: 40px 0; */
     background-color: #FFA800;
-    height: 85px;
+    height: 80px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -168,7 +167,7 @@ body {
 }
 
 .list-element-text:hover {
-    color: #0c0053;
+    color: #3a456ecf;
 }
 
 /* --------------------------- */
