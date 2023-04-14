@@ -71,9 +71,9 @@ body {
     border: none;
     cursor: pointer;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 22px;
     height: 55px;
-    width: 120px;
+    width: 150px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -106,9 +106,9 @@ body {
     border: none;
     cursor: pointer;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 22px;
     height: 55px;
-    width: 120px;
+    width: 150px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -139,7 +139,6 @@ body {
 .header2 {
     width: 100%;
     background-color: #FFA800;
-    height: 80px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -149,7 +148,7 @@ body {
 .list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .img-in-nav {
@@ -160,9 +159,10 @@ body {
 /* --------------------------- */
 
 .list-element-text {
+    vertical-align:  top;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     transition: all 0.2s ease-in 0s;
 }
 
